@@ -1,7 +1,7 @@
 package com.algen.function;
 
 import com.algen.model.*;
-import com.algen.program.Program;
+import com.algen.program.common.Program;
 
 import java.util.ArrayList;
 import java.util.List;

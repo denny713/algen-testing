@@ -3,7 +3,7 @@ package com.algen.algorithm;
 import com.algen.function.Population;
 import com.algen.function.Selection;
 import com.algen.model.*;
-import com.algen.program.Program;
+import com.algen.program.common.Program;
 
 import java.util.List;
 import java.util.Random;

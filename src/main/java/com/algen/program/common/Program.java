@@ -1,4 +1,4 @@
-package com.algen.program;
+package com.algen.program.common;
 
 import com.algen.model.Graph;
 import com.algen.model.Kromosom;

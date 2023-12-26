@@ -1,8 +1,8 @@
 package com.algen;
 
 import com.algen.algorithm.Algen;
-import com.algen.program.Program;
-import com.algen.program.ProgramStrategy;
+import com.algen.program.common.Program;
+import com.algen.program.common.ProgramStrategy;
 import com.algen.model.TestSuite;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -14,12 +14,12 @@ public class AlgenPluginApplication {
 
         Algen algen = new Algen();
         if (args.length == 0) {
-            System.out.println("Invalid command line input (Provide program name)");
+            System.out.println("Kesalahan Input (Harap Ini Nama Program)");
             return;
         }
         Program program = ProgramStrategy.getProgram(args[0]);
         if (program == null) {
-            System.out.println("Invalid command line input (Provide valid program name)");
+            System.out.println("Kesalahan Input (Harap Isi nama Program yang Valid)");
             return;
         }
         Long waktuMulai = System.nanoTime();

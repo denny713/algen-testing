@@ -1,2 +1,2 @@
 # algen-testing
-Plugin Automatedd Testing Menggunakan Algoritma Genetika
+Plugin Automated Testing Menggunakan Algoritma Genetika
